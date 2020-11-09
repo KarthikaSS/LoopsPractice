@@ -1,0 +1,79 @@
+/* function salaryMatch(employees, salaryExample){
+  let richEmployees = [];
+  for(i = 0; i < employees.length; i++){
+    if(employees[i].salary > salaryExample){
+      richEmployees.push(employees[i]);
+    }
+  }
+  return richEmployees;
+}
+
+let employees = [{fullname: "Joe", salary : 2893}]
+*/
+
+/*
+function passOrFail(scoreList){
+  let passList = [];
+  for (let j = 0; j < scoreList.length; j++){
+    if(scoreList[j] >= 60){
+      passList.push("PASS");
+    }
+    else{
+      passList.push("FAIL");
+    }
+  }
+  return passList;
+}
+
+let scores = [50, 60, 86, 90];
+
+console.log(passOrFail([50, 60, 86, 90]));
+*/
+
+/*
+function passOrFail(scores) { 
+  let list = []; 
+  for (let i = 0; i < scores.length; i++) { 
+    if(scores[i] >= 60) { 
+      list.push("PASS"); } 
+    else { 
+      list.push("FAIL"); } } return list; }
+
+console.log(passOrFail([50, 60, 86, 90]));
+*/
+
+/*
+function divisibleBy2And4(integer){
+  divisible = false
+  if (integer%2 == 0 && integer%4 ==0){
+    divisible = true;
+  }
+  return divisible;
+}
+
+console.log(divisibleBy2And4());
+*/
+
+/*
+function createStudentObject(studentName, studentGender, studentAddress, studentEmail){
+  let studentObject = {};
+  studentObject.fullname = studentName;
+  studentObject.gender = studentGender;
+  studentObject.address = studentAddress;
+  studentObject.email = studentEmail;
+
+  return studentObject; 
+}
+
+console.log(createStudentObject("Alex", "male", "123 Boardfish Lane", "example@gmail.com"))
+*/
+
+function sum(numbers){
+  let total = 0
+  for(let i = 0; i < numbers.length; i++){
+    total = total + numbers[i];
+  }
+  return total;
+}
+
+console.log(sum([1,2,3,4,5]));
